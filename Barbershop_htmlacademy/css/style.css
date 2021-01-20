@@ -255,3 +255,25 @@ img {
 .feature-item p {
   margin: 0 10px;
 }
+
+/* index columns */
+.index-columns {
+  display: flex;
+  justify-content:space-between;
+  padding: 50px 80px;
+  margin-bottom: 35px;
+  color: var(--basic-black);
+  background-color: var(--basic-extra-light);
+  background-image:
+    url("../img/line.png"),
+    url("../img/pattern-light.png");
+  background-position: center, 0 0;
+  background-repeat: no-repeat, repeat;
+}
+
+.index-columns h2 {
+  margin: 0;
+  margin-bottom: 25px;
+  font-size: 30px;
+  line-height: 42px;
+}
