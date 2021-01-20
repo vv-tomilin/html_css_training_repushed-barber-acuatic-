@@ -148,3 +148,67 @@ img {
   margin: 0 auto;
   padding: 0 10px;
 }
+
+.main-navigation-wrapper .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* site navigation */
+.site-navigation {
+  display: flex;
+  flex-wrap: wrap;
+  width: 620px;
+  margin: 0;
+  padding: 0;
+  min-height: 70px;
+  list-style: none;
+}
+
+.site-navigation-current a:not([href]) {
+  background-color: var(--basic-black);
+}
+
+/* user navigation */
+.user-navigation {
+  max-width: 140px;
+}
+
+.site-navigation a,
+.user-navigation a {
+  color: var(--basic-white);
+  display: block;
+  padding: 25px 20px;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus,
+.user-navigation a:hover,
+.user-navigation a:focus {
+  background-color: var(--basic-extra-dark);
+}
+
+/* login link */
+.login-link::before {
+  content: "";
+  position: absolute;
+  top: 27px;
+  left: 24px;
+  width: 16px;
+  height: 18px;
+  background-image: url("../img/login.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  opacity: 0.3;
+}
+
+.login-link:hover::before,
+.login-link:focus::before,
+.login-link:active::before {
+  opacity: 1;
+}
+
+.user-navigation .login-link {
+  padding-left: 50px;
+  position: relative;
+}
