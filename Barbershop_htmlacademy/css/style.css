@@ -732,3 +732,13 @@ img {
   text-align: center;
   background-color: var(--basic-neutral);
 }
+
+/* product info */
+.product-info h3 {
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.product-info ul {
+  list-style: none;
+}
