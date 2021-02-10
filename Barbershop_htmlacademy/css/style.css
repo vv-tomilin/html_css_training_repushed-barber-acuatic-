@@ -808,3 +808,24 @@ img {
   padding: 0;
   font-size: 14px;
 }
+
+/* social button */
+.social-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 43px;
+  height: 43px;
+  background-color: var(--basic-black);
+  color: inherit;
+}
+
+.social-button:hover,
+.social-button:focus {
+  background-color: var(--basic-white);
+}
+
+.social-button:hover path,
+.social-button:focus path {
+  fill: var(--basic-black);
+}
