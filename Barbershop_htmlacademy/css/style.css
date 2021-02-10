@@ -829,3 +829,27 @@ img {
 .social-button:focus path {
   fill: var(--basic-black);
 }
+
+/* footer copyright */
+.footer-copyright {
+  max-width: 150px;
+  margin: 0;
+  justify-self: end;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-copyright .button {
+  width: 140px;
+  height: 23px;
+  margin: 14px 0;
+  padding: 10px 0;
+}
+
+.footer-copyright .button:hover,
+.footer-copyright .button:focus {
+  color: var(--basic-black);
+  background-color: var(--basic-white);
+}
