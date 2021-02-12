@@ -921,3 +921,14 @@ img {
   margin: 0;
   margin-bottom: 10px;
 }
+
+/* modal map */
+.modal-map {
+  width: 766px;
+  height: 560px;
+  border: 7px solid white;
+}
+
+.modal-map img {
+  display: block;
+}
