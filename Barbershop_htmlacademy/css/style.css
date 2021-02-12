@@ -967,3 +967,14 @@ img {
   background-position: 130px center;
   background-repeat: no-repeat;
 }
+
+/* restore */
+.restore {
+  color: var(--basic-black);
+  text-decoration: underline;
+}
+
+.restore:hover,
+.restore:focus {
+  text-decoration: none;
+}
