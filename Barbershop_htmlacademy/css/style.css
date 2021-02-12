@@ -932,3 +932,38 @@ img {
 .modal-map img {
   display: block;
 }
+
+/* login form */
+.login-form p {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.login-form .login-help {
+  margin: 15px 0;
+}
+
+.login-form input[type="email"],
+.login-form input[type="password"] {
+  font: inherit;
+  color: var(--basic-black);
+  text-transform: uppercase;
+  background-color: var(--basic-extra-light);
+  border: 2px solid var(--basic-black)
+}
+
+.login-form input:focus {
+  border-color: var(--special);
+}
+
+.login-icon-user {
+  background-image: url("../img/user.svg");
+  background-position: 130px center;
+  background-repeat: no-repeat;
+}
+
+.login-icon-password {
+  background-image: url("../img/lock.svg");
+  background-position: 130px center;
+  background-repeat: no-repeat;
+}
