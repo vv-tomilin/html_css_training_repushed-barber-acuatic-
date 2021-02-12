@@ -901,3 +901,23 @@ img {
 .modal-close::after {
   transform: rotate(-45deg);
 }
+
+/* modal login */
+.modal-login {
+  top: 120px;
+  bottom: auto;
+  width: 300px;
+  padding: 50px 80px;
+}
+
+.modal-login h2 {
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 30px;
+  line-height: 42px;
+}
+
+.modal-description {
+  margin: 0;
+  margin-bottom: 10px;
+}
